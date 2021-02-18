@@ -127,3 +127,7 @@ func waitForExit() {
 		manager.Wait()
 	}
 }
+
+func WaitForExit()  {
+	waitForExit()
+}
